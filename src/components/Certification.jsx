@@ -72,7 +72,7 @@ import {
             {/* {t("certification.header1")} */}
           </p>
           <h2 className={styles.sectionHeadText}>
-            EDUCATION
+            Education & Certifications
             {/* {t("certification.header2")} */}
           </h2>
         </motion.div>

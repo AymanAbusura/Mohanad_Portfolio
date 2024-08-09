@@ -64,7 +64,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-start'
         >
-          {`Marketing professional with over 4+ years of experience in brand management, market analysis, and
+          {`Marketing professional with over +4 years of experience in brand management, market analysis, and
           campaign execution. Proven track record in increasing brand awareness and driving sales growth. Seeking
           to leverage expertise in digital marketing and strategic planning to contribute to a dynamic marketing
           team.`}

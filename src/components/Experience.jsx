@@ -14,7 +14,7 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 //addnew
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -58,15 +58,15 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   // for translation new
-  const {t} = useTranslation();
+  // const {t} = useTranslation();
 
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>{t("experience.header1")}</p>
-        <h2 className={styles.sectionHeadText}>{t("experience.header2")}</h2>
-        {/* <p className={`${styles.sectionSubText} text-center`}>What I have done so far</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Work Experience.</h2> */}
+        {/* <p className={styles.sectionSubText}>{t("experience.header1")}</p> */}
+        {/* <h2 className={styles.sectionHeadText}>{t("experience.header2")}</h2> */}
+        <p className={`${styles.sectionSubText}`}>What I have done so far</p>
+        <h2 className={`${styles.sectionHeadText}`}>Work Experience</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>

@@ -30,7 +30,7 @@ import addiqa from "./company/addiqa.png";
 import dada from "./company/dada.svg";
 
 // import udemy from "./company/udemy.png";
-// import coursera from "./company/coursera.png";
+import acoc from "./company/acoc.png";
 import meu from "./company/meu.png";
 
 import diagram from "./diagram.png";
@@ -68,7 +68,7 @@ export {
   addiqa,
   dada,
   yan,
-  // coursera,
+  acoc,
   // udemy,
   meu,
   diagram,
