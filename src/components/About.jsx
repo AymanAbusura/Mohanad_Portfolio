@@ -64,10 +64,10 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-start'
         >
-          {`Seeking for a position to utilize my skills and abilities that offers Professional growth while being
-            resourceful, innovative. I will keen to contribute to the success and growth of the organization that I will
-            work in by undertaking the challenging assignments and delivering timely result by applying best of my
-            knowledge and skills.`}
+          {`Marketing professional with over 4+ years of experience in brand management, market analysis, and
+          campaign execution. Proven track record in increasing brand awareness and driving sales growth. Seeking
+          to leverage expertise in digital marketing and strategic planning to contribute to a dynamic marketing
+          team.`}
         </motion.p>
         <Tilt className='xs:w-[250px] w-full'>
           <motion.div variants={fadeIn("right", "spring", 0.5, 0.75)}>

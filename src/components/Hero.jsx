@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import resume from '../assets/resume/Resume..pdf';
+import resume from '../assets/resume/Resume.pdf';
 
 // import { ComputersCanvas } from "./canvas";
 

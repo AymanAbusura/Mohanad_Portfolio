@@ -5,13 +5,13 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { google } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 //addnew
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 
 const ProjectCard = ({
   index,
@@ -44,7 +44,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={google}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -74,21 +74,34 @@ const ProjectCard = ({
 
 const Works = () => {
   // for translation new
-  const {t} = useTranslation();
+  // const {t} = useTranslation();
 
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>{t("work.header1")}</p>
-        <h2 className={`${styles.sectionHeadText}`}>{t("work.header2")}</h2>
+        {/* <p className={`${styles.sectionSubText} `}>{t("work.header1")}</p> */}
+        {/* <h2 className={`${styles.sectionHeadText}`}>{t("work.header2")}</h2> */}
+        {/* <p className={`${styles.sectionSubText} `}>
+          {`Following projects showcases my skills. Each project is briefly described with links to code repositories. 
+          It reflects my ability to solve complex problems, 
+          work with different technologies, and manage projects effectively.`}
+        </p> */}
+        <p className={`${styles.sectionSubText} `}>MY WORK</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
+        {/* <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           {t("work.description")}
+        </motion.p> */}
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          {`Following projects showcases my skills. Each project is briefly described with links to Google drive.`}
         </motion.p>
       </div>
 

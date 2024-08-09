@@ -136,11 +136,11 @@ import {
       iconBg: "#fff",
       date: "Jun 2019 - May 2020",
       points: [
-        "Assist the Retail Store Manager in planning and implementing strategies to attract customers.",
-        "Coordinate daily customer service operations (e.g., sales processes, orders and payments).",
-        "Achieving the monthly sales target for the first time since the showroom opened two years ago.",
-        "Resolve customer complaints, direct them and provide the necessary information.",
-        "Delivery to customers.",
+        "Assisted in planning and implementing customer attraction strategies, increasing traffic.",
+        "Coordinated daily customer service operations, improving service efficiency and customer satisfaction.",
+        "Exceeded monthly sales targets for the first time in two years, increasing sales revenue by 25%.",
+        "Successfully resolved customer complaints, improving customer retention and satisfaction.",
+        "Managed and ensured timely delivery to customers.",
       ],
     },
     {
@@ -152,12 +152,12 @@ import {
       iconBg: "#fff",
       date: "Jul 2020 - Nov 2020",
       points: [
-        "External and internal marketing officer.",
-        "Writing content marketing.",
-        "Sales representative.",
-        "Follow up on customers.",
-        "Products Pricing.",
-        "Banking liaison officer.",
+        "Led external and internal marketing efforts, increasing brand visibilityxternal and internal marketing officer.",
+        "Create compelling content marketing strategies, boosting engagement in social media.",
+        "Achieved sales targets as a representative, contributing to a increase in sales.",
+        "Effectively followed up with customers.",
+        "Managed product pricing strategies, enhancing market competitiveness and sales.",
+        "Act as a banking contact, to open new markets.",
       ],
     },
     {
@@ -170,14 +170,13 @@ import {
       date: "Jun 2021 - Dec 2022",
       points: [
         "Conducting marketing plans.",
-        "Analyzing competitive and Market activities.",
+        "Conducted competitive and market analysis, providing insights that market share.",
         "Marketing campaign ideas and their registration in the Ministry of Industry, Trade and Supply.",
-        "Providing the marketing department with information and data first-hand.",
-        "Conduct marketing studies on products and collect details with high accuracy.",
-        "Daily visit to the market by dealers or major markets in order to improve the display stands and submit proposals to display products or stands in the sales channels",
-        "Train sales promoters and Channel sales representatives on and recall key product and technology specifications.",
-        "Building strong relationships with sales channels.",
-        "Submit periodic reports to the direct manager.",
+        "Delivered accurate and timely data to the marketing department,enhancing pricing and campaigns effectiveness.",
+        "Conducted detailed product studies, resulting in improvement in product positioning and strategy.",
+        "Conducted daily market visits, optimizing product displays and increasing sales.",
+        "Established strong relationships with sales channels.",
+        "Submitted detailed reports, offering insights that improved marketing efficiency.",
       ],
     },
     {
@@ -188,21 +187,20 @@ import {
       iconBg: "#fff",
       date: "Jan 2023 - Present",
       points: [
-        "Submit proposals for plans and activities to develop special marketing strategies in the brand.",
-        "Submit a proposal to price the brand's products competitively in the market.",
-        "Implementation of all necessary in order to support the sales department inthe market.",
-        "Executing promotional materials such as catalogs and publications and distributing them to sales channels.",
-        "Procurement Management: Compare offers, negotiate prices, ensure quality of promotional materials, and maintain supplier relationships.",
-        "Prepare periodic reports on effectiveness and supplier performance.",
-        "Weekly visits to the local market.",
-        "Providing marketing studies and knowing competitors' selling methods and their offers.",
-        "Pricing products and supervising the updating of the price list.",
-        "Make offers on brand products.",
-        "Provide suggestions for marketing campaigns and implement them to achieve brand awareness.",
-        "Preparing training materials with brand specifications and training the sales department.",
-        "Effective communication with the brand supplier and coordination in all matters related to the brand.",
-        "Responsible for managing marketing campaigns in collaboration with the Ministry of Industry, Trade, and Supply.",
-        "Submitting the report periodically and weekly to the direct manager.",
+        "Developed and submitted innovative marketing strategies, leading to a increase in brand engagement.",
+        "Conducted market analysis and submitted competitive pricing proposals, resulting in a sales growth.",
+        "Implemented targeted support initiatives for the sales department, boosting market presence and sales.",
+        "Created and distributed 5+ promotional materials, enhancing sales channels' engagement.",
+        "Successfully negotiated with suppliers, reducing promotional materials costs while maintaining high quality.",
+        "Prepared detailed performance reports, identifying key areas for improvement, for suppliers.",
+        "Conducted competitive analysis, leading to the development of strategies that enhanced market competitiveness.",
+        "Managed product pricing and updates, contributing to revenue growth.",
+        "Created and executed promotional offers, increasing brand product sales.",
+        "Suggested and implemented marketing campaigns, resulting in increase in brand awareness.",
+        "Developed and delivered training materials, enhancing sales team's product knowledge and performance.",
+        "Maintained strong communication with dealers suppliers, improving coordination and reducing issues in market.",
+        "Successfully managed government collaborations, launching more than 5 major campaigns that increased brand recognition.",
+        "Submitted comprehensive weekly reports, providing actionable insights.",
       ],
     },
   ];
@@ -288,7 +286,7 @@ import {
   
   const projects = [
     {
-      name: "Diagram",
+      name: "Project 1",
       description: "Social Media App that enable users to create and share content and participate in social networking.",
       tags: [
         {
@@ -320,7 +318,7 @@ import {
       source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
     },
     {
-      name: "Aora",
+      name: "Project 2",
       description: "Social Media App that enable users to create and share content and participate in social networking.",
       tags: [
         {
@@ -348,7 +346,7 @@ import {
       source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
     },
     {
-      name: "E-Shop",
+      name: "Project 3",
       description: "Online shop, browse product catalogs, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.",
       tags: [
         {
@@ -372,7 +370,7 @@ import {
       source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
     },
     {
-      name: "Fitness",
+      name: "Project 4",
       description: "Fitness app designed to help with exercise, other types of physical training, nutrition and diet, and other ways to get fit.",
       tags: [
         {
@@ -392,7 +390,119 @@ import {
       source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
     },
     {
-      name: "LeadHunters",
+      name: "Project 5",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 6",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 7",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 8",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 9",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 10",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 11",
+      description: "Corporate website designed for presenting a LeadHunters company.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leadhunter,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+    },
+    {
+      name: "Project 12",
       description: "Corporate website designed for presenting a LeadHunters company.",
       tags: [
         {
