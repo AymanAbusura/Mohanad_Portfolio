@@ -33,12 +33,15 @@ import acoc from "./company/acoc.png";
 import meu from "./company/meu.png";
 import ecdl from "./company/ecdl.png";
 
-import diagram from "./diagram.png";
-import aora from "./aora.png"
-import ecommerce from "./ecommerce.png";
-import fitness from "./fitness.png";
-import leadhunter from "./leadhunter.png";
-
+import signage from "./projects/signage.png";
+import truk from "./projects/truk.png";
+import stickers from "./projects/stickers.png";
+import stand from "./projects/stand.png";
+import event from "./projects/event.png";
+import campaign from "./projects/campaign.png";
+import concept from "./projects/concept.png";
+import project8 from "./projects/project8.png";
+import project9 from "./projects/project9.png";
 
 export {
   logo,
@@ -71,10 +74,14 @@ export {
   acoc,
   ecdl,
   meu,
-  diagram,
-  ecommerce,
-  fitness,
-  aora,
-  leadhunter,
+  signage,
+  truk,
+  stickers,
+  stand,
+  event,
+  campaign,
+  concept,
+  project8,
+  project9,
   translate,
 };

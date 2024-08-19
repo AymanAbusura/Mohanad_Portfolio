@@ -5,11 +5,15 @@ import {
     acoc,
     ecdl,
     meu,
-    diagram,
-    ecommerce,
-    fitness,
-    aora,
-    leadhunter,
+    signage,
+    stickers,
+    stand,
+    truk,
+    campaign,
+    event,
+    concept,
+    project8,
+    project9
   } from "../assets";
 
   export const navLinks = [
@@ -25,10 +29,6 @@ import {
       id: "contact",
       title: "Contact",
     },
-    // {
-    //   id: "AR",
-    //   title: "AR",
-    // },
   ];
   
   const experiences = [
@@ -122,7 +122,6 @@ import {
       points: [
         "GPA (Very Good 3.22/4.00)",
       ],
-      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK3,
     },
     {
       title: "ICDL Certificate",
@@ -134,7 +133,6 @@ import {
       points: [
         // "GPA (Very Good 3.22/4.00)",
       ],
-      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
     },
     {
       title: "Labor Law between Rights and Duties",
@@ -146,7 +144,6 @@ import {
       points: [
         // "GPA (Very Good 3.22/4.00)",
       ],
-      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
     },
     {
       title: "Strategies of Modern Marketing and Pricing of Products",
@@ -158,202 +155,116 @@ import {
       points: [
         // "GPA (Very Good 3.22/4.00)",
       ],
-      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
     },
   ];
   
   const projects = [
     {
-      name: "Project 1",
-      description: "Social Media App that enable users to create and share content and participate in social networking.",
+      name: "Signage",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "appwrite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "shadcn/ui",
-          color: "red-text-gradient",
-        },
-        {
-          name: "reactQuery",
-          color: "purple-text-gradient",
-        },
+        // {
+        //   name: "Signage",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: diagram,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
+      image: signage,
       source_code_link: "https://drive.google.com/drive/folders/1AGizibdCBQVKYGH1MaHta_wzAowwY9G3",
     },
     {
-      name: "Project 2",
-      description: "Social Media App that enable users to create and share content and participate in social networking.",
+      name: "Truck",
+      description: "",
       tags: [
-        {
-          name: "reactNative",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "expo",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "appwrite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "nativewind",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Animatable",
-          color: "red-text-gradient",
-        },
+        // {
+        //   name: "Truk",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: aora,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
+      image: truk,
       source_code_link: "https://drive.google.com/drive/folders/1CQWBlvQAWvoCAEcgNwAgXBT_GGb6PqlS",
     },
     {
-      name: "Project 3",
-      description: "Online shop, browse product catalogs, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.",
+      name: "Stickers for Point of Sale",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "next",
-          color: "green-text-gradient",
-        },
-        {
-          name: "stripe",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "sanity",
-          color: "purple-text-gradient",
-        },
+        // {
+        //   name: "Stickers for Point of Sale",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: ecommerce,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
+      image: stickers,
       source_code_link: "https://drive.google.com/drive/folders/17IP41F-GXXlMB_8Bl6bkcp5aVoKgWjlp",
     },
     {
-      name: "Project 4",
-      description: "Fitness app designed to help with exercise, other types of physical training, nutrition and diet, and other ways to get fit.",
+      name: "Stand",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "rapidAPI's",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "stand",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: fitness,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
+      image: stand,
       source_code_link: "https://drive.google.com/drive/folders/1SRbEBT8IXLVk9yFwempTW-CDl552rxcM",
     },
     {
-      name: "Project 5",
-      description: "Corporate website designed for presenting a LeadHunters company.",
+      name: "Campaign",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "campaign",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: leadhunter,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      image: campaign,
       source_code_link: "https://drive.google.com/drive/folders/1gnGstxx2ilc-XNjYa5OZA336GQgnhpRE",
     },
     {
-      name: "Project 6",
-      description: "Corporate website designed for presenting a LeadHunters company.",
+      name: "Event",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "react",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: leadhunter,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
+      image: event,
       source_code_link: "https://drive.google.com/drive/folders/1TlfstR97sn7fmhumYMicLWZ2YGH8mw3A",
     },
     {
-      name: "Project 7",
-      description: "Corporate website designed for presenting a LeadHunters company.",
+      name: "Concept shop",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "react",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: leadhunter,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
+      image: concept,
       source_code_link: "https://drive.google.com/drive/folders/17uhVssKQIZ_yWANAdkrdkgCnaTWvlMlc",
     },
     {
-      name: "Project 8",
-      description: "Corporate website designed for presenting a LeadHunters company.",
+      name: "Car display platform",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "react",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: leadhunter,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK8,
+      image: project8,
       source_code_link: "https://drive.google.com/drive/folders/1dMym0QGbbfoggaMYM5-Cx9ujjcvglDPw",
     },
     {
-      name: "Project 9",
-      description: "Corporate website designed for presenting a LeadHunters company.",
+      name: "Camping 2",
+      description: "",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "react",
+        //   color: "blue-text-gradient",
+        // },
       ],
-      image: leadhunter,
-      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK9,
+      image: project9,
       source_code_link: "https://drive.google.com/drive/folders/1fhVkmMJclXq_BHGFYdN_Ui1X65Cd6bEe",
     },
   ];
