@@ -1,20 +1,4 @@
 import {
-    mobile,
-    backend,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    nextjs,
-    git,
-    figma,
-    docker,
     yan,
     dada,
     addiqa,
@@ -26,7 +10,6 @@ import {
     fitness,
     aora,
     leadhunter,
-    threejs,
   } from "../assets";
 
   export const navLinks = [
@@ -46,84 +29,6 @@ import {
     //   id: "AR",
     //   title: "AR",
     // },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Developer",
-      icon: backend,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    // {
-    //   title: "Backend Developer",
-    //   icon: backend,
-    // },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Next JS",
-      icon: nextjs,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
@@ -256,33 +161,6 @@ import {
       // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
     },
   ];
-
-  // const testimonials = [
-  //   {
-  //     testimonial:
-  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //     name: "Sara Lee",
-  //     designation: "CFO",
-  //     company: "Acme Co",
-  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //     name: "Chris Brown",
-  //     designation: "COO",
-  //     company: "DEF Corp",
-  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //     name: "Lisa Wang",
-  //     designation: "CTO",
-  //     company: "456 Enterprises",
-  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   },
-  // ];
   
   const projects = [
     {
@@ -315,7 +193,8 @@ import {
         },
       ],
       image: diagram,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
+      source_code_link: "https://drive.google.com/drive/folders/1AGizibdCBQVKYGH1MaHta_wzAowwY9G3"
     },
     {
       name: "Project 2",
@@ -343,7 +222,8 @@ import {
         },
       ],
       image: aora,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
+      source_code_link: "https://drive.google.com/drive/folders/1CQWBlvQAWvoCAEcgNwAgXBT_GGb6PqlS"
     },
     {
       name: "Project 3",
@@ -367,7 +247,8 @@ import {
         },
       ],
       image: ecommerce,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
+      source_code_link: "https://drive.google.com/drive/folders/17IP41F-GXXlMB_8Bl6bkcp5aVoKgWjlp"
     },
     {
       name: "Project 4",
@@ -387,7 +268,8 @@ import {
         },
       ],
       image: fitness,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
+      source_code_link: "https://drive.google.com/drive/folders/1SRbEBT8IXLVk9yFwempTW-CDl552rxcM"
     },
     {
       name: "Project 5",
@@ -403,7 +285,8 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      source_code_link: "https://drive.google.com/drive/folders/1gnGstxx2ilc-XNjYa5OZA336GQgnhpRE"
     },
     {
       name: "Project 6",
@@ -419,7 +302,8 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
+      source_code_link: "https://drive.google.com/drive/folders/1TlfstR97sn7fmhumYMicLWZ2YGH8mw3A"
     },
     {
       name: "Project 7",
@@ -435,7 +319,8 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
+      source_code_link: "https://drive.google.com/drive/folders/17uhVssKQIZ_yWANAdkrdkgCnaTWvlMlc"
     },
     {
       name: "Project 8",
@@ -451,7 +336,8 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK8,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK8,
+      source_code_link: "https://drive.google.com/drive/folders/1dMym0QGbbfoggaMYM5-Cx9ujjcvglDPw"
     },
     {
       name: "Project 9",
@@ -467,8 +353,9 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK9,
+      // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK9,
+      source_code_link: "https://drive.google.com/drive/folders/1fhVkmMJclXq_BHGFYdN_Ui1X65Cd6bEe"
     },
   ];
   
-  export { services, technologies, experiences, certifications, projects };
+  export { experiences, certifications, projects };
