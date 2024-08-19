@@ -6,7 +6,7 @@ import {
     ecdl,
     meu,
     signage,
-    stickers,
+    sticker,
     stand,
     truck,
     campaign,
@@ -192,7 +192,7 @@ import {
         //   color: "blue-text-gradient",
         // },
       ],
-      image: stickers,
+      image: sticker,
       source_code_link: "https://drive.google.com/drive/folders/17IP41F-GXXlMB_8Bl6bkcp5aVoKgWjlp",
     },
     {
