@@ -40,8 +40,8 @@ import stand from "./projects/stand.png";
 import event from "./projects/event.png";
 import campaign from "./projects/campaign.png";
 import concept from "./projects/concept.png";
-import project8 from "./projects/project8.png";
-import project9 from "./projects/project9.png";
+import cdp from "./projects/cdp.png";
+import psom from "./projects/psom.gif";
 
 export {
   logo,
@@ -81,7 +81,7 @@ export {
   event,
   campaign,
   concept,
-  project8,
-  project9,
+  cdp,
+  psom,
   translate,
 };

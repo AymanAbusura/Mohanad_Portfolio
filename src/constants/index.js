@@ -12,8 +12,8 @@ import {
     campaign,
     event,
     concept,
-    project8,
-    project9
+    cdp,
+    psom
   } from "../assets";
 
   export const navLinks = [
@@ -172,7 +172,7 @@ import {
       source_code_link: "https://drive.google.com/drive/folders/1AGizibdCBQVKYGH1MaHta_wzAowwY9G3",
     },
     {
-      name: "Truck",
+      name: "Truck stickers branding",
       description: "",
       tags: [
         // {
@@ -208,7 +208,7 @@ import {
       source_code_link: "https://drive.google.com/drive/folders/1SRbEBT8IXLVk9yFwempTW-CDl552rxcM",
     },
     {
-      name: "Campaign",
+      name: "POSM",
       description: "",
       tags: [
         // {
@@ -216,7 +216,7 @@ import {
         //   color: "blue-text-gradient",
         // },
       ],
-      image: campaign,
+      image: psom,
       source_code_link: "https://drive.google.com/drive/folders/1gnGstxx2ilc-XNjYa5OZA336GQgnhpRE",
     },
     {
@@ -252,11 +252,11 @@ import {
         //   color: "blue-text-gradient",
         // },
       ],
-      image: project8,
+      image: cdp,
       source_code_link: "https://drive.google.com/drive/folders/1dMym0QGbbfoggaMYM5-Cx9ujjcvglDPw",
     },
     {
-      name: "Camping 2",
+      name: "Campaign",
       description: "",
       tags: [
         // {
@@ -264,7 +264,7 @@ import {
         //   color: "blue-text-gradient",
         // },
       ],
-      image: project9,
+      image: campaign,
       source_code_link: "https://drive.google.com/drive/folders/1fhVkmMJclXq_BHGFYdN_Ui1X65Cd6bEe",
     },
   ];
