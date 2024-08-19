@@ -194,7 +194,7 @@ import {
       ],
       image: diagram,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK1,
-      source_code_link: "https://drive.google.com/drive/folders/1AGizibdCBQVKYGH1MaHta_wzAowwY9G3"
+      source_code_link: "https://drive.google.com/drive/folders/1AGizibdCBQVKYGH1MaHta_wzAowwY9G3",
     },
     {
       name: "Project 2",
@@ -223,7 +223,7 @@ import {
       ],
       image: aora,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK2,
-      source_code_link: "https://drive.google.com/drive/folders/1CQWBlvQAWvoCAEcgNwAgXBT_GGb6PqlS"
+      source_code_link: "https://drive.google.com/drive/folders/1CQWBlvQAWvoCAEcgNwAgXBT_GGb6PqlS",
     },
     {
       name: "Project 3",
@@ -248,7 +248,7 @@ import {
       ],
       image: ecommerce,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK3,
-      source_code_link: "https://drive.google.com/drive/folders/17IP41F-GXXlMB_8Bl6bkcp5aVoKgWjlp"
+      source_code_link: "https://drive.google.com/drive/folders/17IP41F-GXXlMB_8Bl6bkcp5aVoKgWjlp",
     },
     {
       name: "Project 4",
@@ -269,7 +269,7 @@ import {
       ],
       image: fitness,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK4,
-      source_code_link: "https://drive.google.com/drive/folders/1SRbEBT8IXLVk9yFwempTW-CDl552rxcM"
+      source_code_link: "https://drive.google.com/drive/folders/1SRbEBT8IXLVk9yFwempTW-CDl552rxcM",
     },
     {
       name: "Project 5",
@@ -286,7 +286,7 @@ import {
       ],
       image: leadhunter,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
-      source_code_link: "https://drive.google.com/drive/folders/1gnGstxx2ilc-XNjYa5OZA336GQgnhpRE"
+      source_code_link: "https://drive.google.com/drive/folders/1gnGstxx2ilc-XNjYa5OZA336GQgnhpRE",
     },
     {
       name: "Project 6",
@@ -303,7 +303,7 @@ import {
       ],
       image: leadhunter,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
-      source_code_link: "https://drive.google.com/drive/folders/1TlfstR97sn7fmhumYMicLWZ2YGH8mw3A"
+      source_code_link: "https://drive.google.com/drive/folders/1TlfstR97sn7fmhumYMicLWZ2YGH8mw3A",
     },
     {
       name: "Project 7",
@@ -320,7 +320,7 @@ import {
       ],
       image: leadhunter,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
-      source_code_link: "https://drive.google.com/drive/folders/17uhVssKQIZ_yWANAdkrdkgCnaTWvlMlc"
+      source_code_link: "https://drive.google.com/drive/folders/17uhVssKQIZ_yWANAdkrdkgCnaTWvlMlc",
     },
     {
       name: "Project 8",
@@ -337,7 +337,7 @@ import {
       ],
       image: leadhunter,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK8,
-      source_code_link: "https://drive.google.com/drive/folders/1dMym0QGbbfoggaMYM5-Cx9ujjcvglDPw"
+      source_code_link: "https://drive.google.com/drive/folders/1dMym0QGbbfoggaMYM5-Cx9ujjcvglDPw",
     },
     {
       name: "Project 9",
@@ -354,7 +354,7 @@ import {
       ],
       image: leadhunter,
       // source_code_link: import.meta.env.VITE_APP_PROJECT_LINK9,
-      source_code_link: "https://drive.google.com/drive/folders/1fhVkmMJclXq_BHGFYdN_Ui1X65Cd6bEe"
+      source_code_link: "https://drive.google.com/drive/folders/1fhVkmMJclXq_BHGFYdN_Ui1X65Cd6bEe",
     },
   ];
   
