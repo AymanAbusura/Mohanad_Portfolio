@@ -8,7 +8,7 @@ import {
     signage,
     stickers,
     stand,
-    truk,
+    truck,
     campaign,
     event,
     concept,
@@ -180,7 +180,7 @@ import {
         //   color: "blue-text-gradient",
         // },
       ],
-      image: truk,
+      image: truck,
       source_code_link: "https://drive.google.com/drive/folders/1CQWBlvQAWvoCAEcgNwAgXBT_GGb6PqlS",
     },
     {

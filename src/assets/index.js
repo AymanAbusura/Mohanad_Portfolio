@@ -34,7 +34,7 @@ import meu from "./company/meu.png";
 import ecdl from "./company/ecdl.png";
 
 import signage from "./projects/signage.png";
-import truk from "./projects/truk.png";
+import truck from "./projects/truk.png";
 import stickers from "./projects/stickers.png";
 import stand from "./projects/stand.png";
 import event from "./projects/event.png";
@@ -75,7 +75,7 @@ export {
   ecdl,
   meu,
   signage,
-  truk,
+  truck,
   stickers,
   stand,
   event,

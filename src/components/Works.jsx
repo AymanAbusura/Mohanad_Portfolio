@@ -79,24 +79,11 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        {/* <p className={`${styles.sectionSubText} `}>{t("work.header1")}</p> */}
-        {/* <h2 className={`${styles.sectionHeadText}`}>{t("work.header2")}</h2> */}
-        {/* <p className={`${styles.sectionSubText} `}>
-          {`Following projects showcases my skills. Each project is briefly described with links to code repositories. 
-          It reflects my ability to solve complex problems, 
-          work with different technologies, and manage projects effectively.`}
-        </p> */}
         <p className={`${styles.sectionSubText} `}>MY WORK</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
-        {/* <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          {t("work.description")}
-        </motion.p> */}
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
