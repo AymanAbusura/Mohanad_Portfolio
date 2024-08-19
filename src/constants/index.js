@@ -419,7 +419,7 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK6,
     },
     {
       name: "Project 7",
@@ -435,7 +435,7 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK7,
     },
     {
       name: "Project 8",
@@ -451,7 +451,7 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK8,
     },
     {
       name: "Project 9",
@@ -467,55 +467,7 @@ import {
         },
       ],
       image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
-    },
-    {
-      name: "Project 10",
-      description: "Corporate website designed for presenting a LeadHunters company.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
-    },
-    {
-      name: "Project 11",
-      description: "Corporate website designed for presenting a LeadHunters company.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
-    },
-    {
-      name: "Project 12",
-      description: "Corporate website designed for presenting a LeadHunters company.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: leadhunter,
-      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK5,
+      source_code_link: import.meta.env.VITE_APP_PROJECT_LINK9,
     },
   ];
   
