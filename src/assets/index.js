@@ -29,9 +29,9 @@ import yan from "./company/yan.png";
 import addiqa from "./company/addiqa.png";
 import dada from "./company/dada.svg";
 
-// import udemy from "./company/udemy.png";
 import acoc from "./company/acoc.png";
 import meu from "./company/meu.png";
+import ecdl from "./company/ecdl.png";
 
 import diagram from "./diagram.png";
 import aora from "./aora.png"
@@ -69,7 +69,7 @@ export {
   dada,
   yan,
   acoc,
-  // udemy,
+  ecdl,
   meu,
   diagram,
   ecommerce,

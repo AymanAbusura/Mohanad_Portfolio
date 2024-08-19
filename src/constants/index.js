@@ -19,7 +19,7 @@ import {
     dada,
     addiqa,
     acoc,
-    // udemy,
+    ecdl,
     meu,
     diagram,
     ecommerce,
@@ -206,24 +206,6 @@ import {
   ];
   
   const certifications = [
-    // {
-    //   title: "SEO 2021: Complete SEO Training + SEO for WordPress Websites",
-    //   company_name: "Udemy",
-    //   icon: meu,
-    //   // iconBg: "#E6DEDD",
-    //   iconBg: "#fff",
-    //   date: "Mar 2021",
-    //   link: import.meta.env.VITE_APP_CERTIFICATION_LINK1,
-    // },
-    // {
-    //   title: "Team Leadership & Team Management Skills",
-    //   company_name: "Udemy",
-    //   icon: meu,
-    //   // iconBg: "#E6DEDD",
-    //   iconBg: "#fff",
-    //   date: "Dec 2021",
-    //   link: import.meta.env.VITE_APP_CERTIFICATION_LINK2,
-    // },
     {
       title: "Bachelor of Marketing",
       company_name: "Middle East University",
@@ -235,7 +217,31 @@ import {
       points: [
         "GPA (Very Good 3.22/4.00)",
       ],
-      link: import.meta.env.VITE_APP_CERTIFICATION_LINK3,
+      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK3,
+    },
+    {
+      title: "ICDL Certificate",
+      company_name: "ECDL Foundation",
+      icon: ecdl,
+      // iconBg: "#E6DEDD",
+      iconBg: "#fff",
+      date: "Jan 2019",
+      points: [
+        // "GPA (Very Good 3.22/4.00)",
+      ],
+      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
+    },
+    {
+      title: "Labor Law between Rights and Duties",
+      company_name: "Middle East University",
+      icon: meu,
+      // iconBg: "#E6DEDD",
+      iconBg: "#fff",
+      date: "Mar 2019",
+      points: [
+        // "GPA (Very Good 3.22/4.00)",
+      ],
+      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
     },
     {
       title: "Strategies of Modern Marketing and Pricing of Products",
@@ -247,17 +253,8 @@ import {
       points: [
         // "GPA (Very Good 3.22/4.00)",
       ],
-      link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
+      // link: import.meta.env.VITE_APP_CERTIFICATION_LINK4,
     },
-    // {
-    //   title: "Agile with Atlassian Jira",
-    //   company_name: "Coursera",
-    //   icon: meu,
-    //   // iconBg: "#E6DEDD",
-    //   iconBg: "#fff",
-    //   date: "Feb 2024",
-    //   link: import.meta.env.VITE_APP_CERTIFICATION_LINK5,
-    // },
   ];
 
   // const testimonials = [
