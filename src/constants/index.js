@@ -13,7 +13,15 @@ import {
     event,
     concept,
     cdp,
-    psom
+    psom,
+    art,
+    echo,
+    tri,
+    feras,
+    sho3la,
+    pikasso,
+    clear,
+    phe
   } from "../assets";
 
   export const navLinks = [
@@ -268,5 +276,40 @@ import {
       source_code_link: "https://drive.google.com/drive/folders/1fhVkmMJclXq_BHGFYdN_Ui1X65Cd6bEe",
     },
   ];
+
+  const technologies = [
+    {
+      name: "Artmedia",
+      icon: art,
+    },
+    {
+      name: "echomedia",
+      icon: echo,
+    },
+    {
+      name: "tri",
+      icon: tri,
+    },
+    {
+      name: "feras",
+      icon: feras,
+    },
+    {
+      name: "sho3la",
+      icon: sho3la,
+    },
+    {
+      name: "pikasso",
+      icon: pikasso,
+    },
+    {
+      name: "clear",
+      icon: clear,
+    },
+    {
+      name: "phe",
+      icon: phe,
+    },
+  ];
   
-  export { experiences, certifications, projects };
+  export { experiences, certifications, projects, technologies };

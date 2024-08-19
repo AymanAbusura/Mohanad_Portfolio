@@ -10,20 +10,14 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import translate from "./translate.png"
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import nextjs from "./tech/nextjs.png";
+import art from "./tech/art.png";
+import echo from "./tech/echo.png";
+import tri from "./tech/tri.png";
+import feras from "./tech/feras.png";
+import sho3la from "./tech/sho3la.png";
+import pikasso from "./tech/pikasso.png";
+import clear from "./tech/clear.png";
+import phe from "./tech/phe.png";
 
 import yan from "./company/yan.png";
 import addiqa from "./company/addiqa.png";
@@ -54,20 +48,14 @@ export {
   google,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  nextjs,
+  art,
+  echo,
+  tri,
+  feras,
+  sho3la,
+  pikasso,
+  clear,
+  phe,
   addiqa,
   dada,
   yan,
