@@ -9,6 +9,7 @@ import google from "./googledrive.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import translate from "./translate.png"
+import linkedin from "./linkedin.png";
 
 import art from "./tech/art.png";
 import echo from "./tech/echo.png";
@@ -72,4 +73,5 @@ export {
   cdp,
   psom,
   translate,
+  linkedin,
 };

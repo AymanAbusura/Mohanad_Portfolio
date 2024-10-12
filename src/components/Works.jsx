@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
-// import React from "react";
+import { useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -9,9 +9,6 @@ import { google } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-
-//addnew
-// import { useTranslation } from 'react-i18next';
 
 const ProjectCard = ({
   index,
@@ -22,23 +19,27 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div 
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)} 
+      initial="hidden" 
+      animate="show"
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className='relative w-full h-[230px]'>
+        <div className="relative w-full h-[230px] cursor-pointer">
           <img
             src={image}
-            alt='project_image'
-            className='w-full h-full object-contain rounded-2xl'
+            alt="project_image"
+            className="w-full h-full object-contain rounded-2xl"
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -51,18 +52,15 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-        
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+
+        <div className="mt-5">
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
+            <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -73,8 +71,10 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  // for translation new
-  // const {t} = useTranslation();
+  const [visibleProjects, setVisibleProjects] = useState(3);
+  const loadMoreProjects = () => {
+    setVisibleProjects((prevCount) => Math.min(prevCount + 3, projects.length));
+  };
 
   return (
     <>
@@ -93,14 +93,27 @@ const Works = () => {
       </div>
 
       {/* <div className='mt-20 flex flex-wrap gap-7'>
-          <ProjectCard index={'Diagram'} />
-      </div> */}
-
-      <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div> */}
+
+      <div className="mt-20 flex flex-wrap gap-7">
+        {projects.slice(0, visibleProjects).map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
       </div>
+
+      {visibleProjects < projects.length && (
+        <div className="mt-10 flex justify-center">
+          <button
+            onClick={loadMoreProjects}
+            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-blue-500"
+          >
+            Load More
+          </button>
+        </div>
+      )}
     </>
   );
 };

@@ -13,7 +13,7 @@ const Hero = () => {
   // const {t} = useTranslation();
 
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-[75vh] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -36,7 +36,7 @@ const Hero = () => {
           a Marketing Expert
           </p>
           {/* <div> */}
-          <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
+          <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-blue-500'>
             <a href={resume} download='resume'>Resume</a>
           </button>
           {/* </div> */}

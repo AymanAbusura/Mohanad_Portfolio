@@ -7,7 +7,8 @@ import Experience from './Experience';
 import Works from './Works';
 import Certification from './Certification';
 import Contact from './Contact';
-import LanguageSelector from './LanguageSelector'; //new
+import LanguageSelector from './LanguageSelector';
+import Footer from './Footer';
 
 export {
   Hero,
@@ -22,5 +23,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  LanguageSelector //new
+  Footer,
+  LanguageSelector
 }
