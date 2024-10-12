@@ -28,6 +28,7 @@ import acoc from "./company/acoc.png";
 import meu from "./company/meu.png";
 import ecdl from "./company/ecdl.png";
 
+import salesTeam from "./projects/salesTeam.png";
 import signage from "./projects/signage.png";
 import truck from "./projects/truck.png";
 import sticker from "./projects/stickers.png";
@@ -63,6 +64,7 @@ export {
   acoc,
   ecdl,
   meu,
+  salesTeam,
   signage,
   truck,
   sticker,

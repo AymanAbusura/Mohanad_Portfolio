@@ -3,17 +3,9 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import resume from '../assets/resume/Resume.pdf';
 
-// import { ComputersCanvas } from "./canvas";
-
-//addnew
-// import { useTranslation } from 'react-i18next';
-
 const Hero = () => {
-  // for translation new
-  // const {t} = useTranslation();
-
   return (
-    <section className={`relative w-full h-[75vh] mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -24,26 +16,19 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          {/* {t("hero.greeting")}  */}
             Hi, {`I'm `}
             <span className='text-[#915EFF]'>
-              {/* {t("hero.name")} */}
               Mohanad
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          {/* {t("hero.description")} */}
-          a Marketing Expert
+            A marketing and training specialist
           </p>
-          {/* <div> */}
           <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-blue-500'>
-            <a href={resume} download='resume'>Resume</a>
+            <a href={resume} download='Resume'>Resume</a>
           </button>
-          {/* </div> */}
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

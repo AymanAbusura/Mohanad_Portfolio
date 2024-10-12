@@ -5,6 +5,7 @@ import {
     acoc,
     ecdl,
     meu,
+    salesTeam,
     signage,
     sticker,
     stand,
@@ -41,7 +42,7 @@ import {
   
   const experiences = [
     {
-      title: "Sales",
+      title: "Sales Representative",
       company_name: "YAN Trading Company",
       location: "Amman, Jordan",
       icon: yan,
@@ -49,11 +50,9 @@ import {
       iconBg: "#fff",
       date: "Jun 2019 - May 2020",
       points: [
-        "Assisted in planning and implementing customer attraction strategies, increasing traffic.",
-        "Coordinated daily customer service operations, improving service efficiency and customer satisfaction.",
-        "Exceeded monthly sales targets for the first time in two years, increasing sales revenue by 25%.",
-        "Successfully resolved customer complaints, improving customer retention and satisfaction.",
-        "Managed and ensured timely delivery to customers.",
+        "Planned and implemented customer attraction strategies that successfully increased foot traffic.",
+        "Consistently exceeded sales targets, maximizing customer satisfaction and loyalty.",
+        "Managed customer service operations daily, streamlining efficiency and enhancing the customer experience.",
       ],
     },
     {
@@ -65,16 +64,13 @@ import {
       iconBg: "#fff",
       date: "Jul 2020 - Nov 2020",
       points: [
-        "Led external and internal marketing efforts, increasing brand visibilityxternal and internal marketing officer.",
-        "Create compelling content marketing strategies, boosting engagement in social media.",
-        "Achieved sales targets as a representative, contributing to a increase in sales.",
-        "Effectively followed up with customers.",
-        "Managed product pricing strategies, enhancing market competitiveness and sales.",
-        "Act as a banking contact, to open new markets.",
+        "Led internal and external marketing efforts, significantly increasing brand visibility.",
+        "Developed content marketing strategies that boosted engagement on social media platforms.",
+        "Implemented customer follow-up protocols, fostering improved customer retention.",
       ],
     },
     {
-      title: "Marketing Coordinator & analyst",
+      title: "Marketing Coordinator & Analyst",
       company_name: "Dada Group",
       location: "Amman, Jordan",
       icon: dada,
@@ -82,38 +78,27 @@ import {
       iconBg: "#fff",
       date: "Jun 2021 - Dec 2022",
       points: [
-        "Conducting marketing plans.",
-        "Conducted competitive and market analysis, providing insights that market share.",
-        "Marketing campaign ideas and their registration in the Ministry of Industry, Trade and Supply.",
-        "Delivered accurate and timely data to the marketing department,enhancing pricing and campaigns effectiveness.",
-        "Conducted detailed product studies, resulting in improvement in product positioning and strategy.",
-        "Conducted daily market visits, optimizing product displays and increasing sales.",
-        "Established strong relationships with sales channels.",
-        "Submitted detailed reports, offering insights that improved marketing efficiency.",
+        "Conducted market and competitor analysis, contributing to improved market positioning and strategy.",
+        "Developed and registered marketing campaigns in alignment with regulatory requirements.",
+        "Enhanced product positioning through targeted studies, improving overall brand perception.",
+        "Built and maintained relationships with sales channels, optimizing product displays and driving sales.",
+        "Delivered precise, data-driven insights to optimize pricing and campaign strategies.",
       ],
     },
     {
-      title: "Marketing Officer",
+      title: "Trainer Specialist / Marketing Officer",
       company_name: "Dada Group",
       location: "Amman, Jordan",
       icon: dada,
       iconBg: "#fff",
       date: "Jan 2023 - Present",
       points: [
-        "Developed and submitted innovative marketing strategies, leading to a increase in brand engagement.",
-        "Conducted market analysis and submitted competitive pricing proposals, resulting in a sales growth.",
-        "Implemented targeted support initiatives for the sales department, boosting market presence and sales.",
-        "Created and distributed 5+ promotional materials, enhancing sales channels' engagement.",
-        "Successfully negotiated with suppliers, reducing promotional materials costs while maintaining high quality.",
-        "Prepared detailed performance reports, identifying key areas for improvement, for suppliers.",
-        "Conducted competitive analysis, leading to the development of strategies that enhanced market competitiveness.",
-        "Managed product pricing and updates, contributing to revenue growth.",
-        "Created and executed promotional offers, increasing brand product sales.",
-        "Suggested and implemented marketing campaigns, resulting in increase in brand awareness.",
-        "Developed and delivered training materials, enhancing sales team's product knowledge and performance.",
-        "Maintained strong communication with dealers suppliers, improving coordination and reducing issues in market.",
-        "Successfully managed government collaborations, launching more than 5 major campaigns that increased brand recognition.",
-        "Submitted comprehensive weekly reports, providing actionable insights.",
+        "Developed and executed comprehensive training plans for external and internal employees, creating localized training materials and leading hands-on sessions to improve product knowledge and team proficiency.",
+        "Conducted market analysis to inform competitive pricing strategies, supporting both training relevance and revenue growth through improved brand positioning.",
+        "Designed and distributed targeted promotional materials for sales channels, enhancing engagement and supporting training initiatives around product features and benefits.",
+        "Spearheaded innovative marketing campaigns in collaboration with government entities, elevating brand recognition and integrating training content to align with campaign goals.",
+        "Negotiated with suppliers to reduce promotional costs, achieving savings while ensuring quality, with a focus on creating effective training tools and materials.",
+        "Generated detailed reports with actionable insights to guide strategic decisions for training program enhancements and marketing initiatives.",
       ],
     },
   ];
@@ -167,6 +152,18 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Product training",
+      description: "",
+      tags: [
+        // {
+        //   name: "Signage",
+        //   color: "blue-text-gradient",
+        // },
+      ],
+      image: salesTeam,
+      source_code_link: "https://drive.google.com/drive/folders/1GjY-4EBsXZKbdf1LeZ3Biv9gLyhDWLpD",
+    },
     {
       name: "Signage",
       description: "",

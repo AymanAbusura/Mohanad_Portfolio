@@ -1,6 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
-
 import {
     VerticalTimeline,
     VerticalTimelineElement,
@@ -13,9 +12,6 @@ import {
   import { certifications } from "../constants";
   import { SectionWrapper } from "../hoc";
   import { textVariant } from "../utils/motion";
-  
-//addnew
-// import { useTranslation } from 'react-i18next';
 
   const CertificationCard = ({ certification }) => {
     return (
@@ -61,19 +57,14 @@ import {
   };
   
   const Certification = () => {
-    // for translation new
-    // const {t} = useTranslation();
-
     return (
       <>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>
             WHAT I HAVE DONE SO FAR
-            {/* {t("certification.header1")} */}
           </p>
           <h2 className={styles.sectionHeadText}>
             Education & Certifications
-            {/* {t("certification.header2")} */}
           </h2>
         </motion.div>
   
