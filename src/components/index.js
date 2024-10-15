@@ -9,6 +9,7 @@ import Certification from './Certification';
 import Contact from './Contact';
 import LanguageSelector from './LanguageSelector';
 import Footer from './Footer';
+import Top from './Top';
 
 export {
   Hero,
@@ -24,5 +25,6 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Footer,
+  Top,
   LanguageSelector
 }
